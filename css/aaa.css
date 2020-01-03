@@ -1,0 +1,240 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.header-section {
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(../img/wallpaper.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+.main ul li {
+	display: inline-block;
+}
+.main ul li a{
+	text-decoration: none;
+	color:#000;
+	padding: 5px 20px;
+	transition: 0,6s;
+	margin-top: 10px;
+}
+.main ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+.logo img{
+	float: left;
+	width: 170px;
+	height: auto;
+	margin-top: 20px;
+	margin-left: -26px;
+
+}
+.main {
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	transform: translate(5%,10%);
+}
+.title h1{
+	font-family: sans-serif;
+	color: #000;
+	font-size: 35px;
+	text-align: center;
+}
+.title p{
+	font-family: sans-serif;
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+}
+.profile-section {
+    padding: 50px 15px;
+    position: relative;
+    height: 450px;
+}
+
+.profile-warp {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.profile-text{
+    padding-left: 30px;
+    width: 50%;
+    float: left;
+}
+
+.profile-text h2 {
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+
+.profile-text p {
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+.profile-foto {
+    width: 45%;
+    float: right;
+}
+
+.foto_profile{
+	background: url("../img/profil2.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+}
+
+footer{
+	border-top: 3px solid #272525;
+	text-align: center;
+	font-size: 16px;
+	line-height: 0.2;
+	color: aliceblue;
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.tw{
+width:50px ;
+height: 50px;
+}
+.ig{
+width:60px ;
+height: 50px;
+}
+
+.header-gallery {
+	background-image: url(../img/wallpaper.jpg);
+	height: 15vh;
+	background-size: cover;
+	background-position: top;
+}
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 250px;
+	margin-left: 0px;
+	margin-top: 40px;
+	
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .gallery-section {
+	  height: 80vh;
+	  background-color: #fff;
+  }
+  .text-gallery h1{
+	  font-size: 30px;
+	  text-align: center;
+	  font-family: sans-serif;
+  }
+  *{
+	box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+  }
+  
+  label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+  }
+  
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  
+  .col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+  }
+  
+  .col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+  }
+
+  #customers {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 80px;
+  }
+  
+  #customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+  }
